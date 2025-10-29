@@ -128,7 +128,6 @@
     nav ul {
         display: flex;
         list-style: none;
-        text-decoration: none;
     }
 
     nav ul li {
@@ -624,6 +623,7 @@
         background: rgba(255, 255, 255, 0.1);
         color: white;
         transition: var(--transition);
+        text-decoration: none;
     }
 
     .social-links a:hover {
